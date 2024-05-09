@@ -1,4 +1,5 @@
-export default function Banner () {
+import './styling.css';
+function Banner () {
     return ( 
     <>
         <header>Orbit Report</header>
@@ -6,3 +7,4 @@ export default function Banner () {
     </>
 )
 }
+export default Banner;
